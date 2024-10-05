@@ -1,10 +1,14 @@
+/*The Link of the problem : 
+https://www.hackerrank.com/challenges/simple-array-sum/problem
+
+Tasnim Munawar Rafee
+*/
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
 int main() {
 
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     unsigned short int N,i;
     scanf("%hd",&N);
     int  sum=0,ar[N];
