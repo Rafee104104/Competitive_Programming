@@ -2,17 +2,16 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-
 int main() {
 
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */
-    unsigned short int a;
-    scanf("%hd",&a);
-    int  sum=0,ar[a];
-    for(unsigned short i=0;i<a;i++){
+    unsigned short int N,i;
+    scanf("%hd",&N);
+    int  sum=0,ar[N];
+    for(i=0;i<N;i++){
         scanf("%d",&ar[i]);
     }
-    for( unsigned short i=0;i<a;i++){
+    for(i=0;i<N;i++){
         sum+=ar[i];
     }
     printf("%d",sum);
